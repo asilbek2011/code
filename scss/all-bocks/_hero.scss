@@ -1,0 +1,61 @@
+/* jost-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jost-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+.hero{
+    .container{
+        background-image: url(../../img/Group64.png);
+        background-repeat: no-repeat;
+        width: 1111px;
+        height: 640px;
+    }
+
+    *::selection{
+        color: black;
+        background-color: aqua;
+    }
+
+    .hero__item{
+        padding-top: 80px;
+        list-style: none;
+    }
+
+    .hero__heading{
+        color: #FFFFFF;
+        font-family: "Jost";
+        width: 540px;
+        font-size: 48px;
+    }
+
+    .hero__text{
+        font-family: "Jost";
+        width: 445px;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+
+    .hero__button{
+        background-color: #FFFFFF;
+        color: #333136;
+        border: none;
+        width: 152px;
+        height: 56px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

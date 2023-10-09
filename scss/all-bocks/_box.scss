@@ -1,0 +1,78 @@
+/* jost-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* jost-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/jost-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *::selection{
+    color: black;
+    background-color: aqua;
+  }
+
+.box{
+    margin-top: 200px;
+    margin-left: -50px;
+}
+
+.box__list{
+    background-image: url(../../img/Bitmap.png);
+    background-repeat: no-repeat;
+    width: 541px;
+    height: 640px;
+    list-style: none;
+}
+
+.box__lists{
+  background-image: url(../../img/Bitmap1.png);
+  width: 541px;
+  height: 308px;
+  margin-top: -662px;
+}
+
+.box__liste{
+  background-image: url(../../img/Bitmap2.png);
+  background-repeat: no-repeat;
+  width: 541px;
+  height: 308px;
+}
+
+.box__lists , .box__liste{
+  margin-left: 580px;
+}
+
+.box__item{
+  margin-left: 136px;
+  padding-top: 270px;
+}
+
+.box__heading2{
+    color: #FFFFFF;
+    font-family: "Jost";
+}
+
+.box__items{
+  margin-left: 150px;
+  padding-top: 100px;
+}
+
+.box__iteme{
+  margin-left: 150px;
+  padding-top: 100px;
+}
+
+.box__text{
+  color: #FFFFFF;
+  font-family: "Jost";
+  margin-left: 20px;
+}
